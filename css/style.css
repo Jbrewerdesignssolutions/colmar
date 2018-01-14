@@ -1,0 +1,211 @@
+
+nav {
+    overflow: hidden;
+}
+
+/**********Main Fonts and Color**********/
+h1, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+}
+.desc {
+    font-family: 'Raleway', serif;
+}
+.read {
+    font-family: 'Fauna One', serif;
+    color: #519ef5;
+}
+.practice p {
+    font-family: 'Fauna One', serif;
+    color: #3a3a3a;
+}
+li:hover {
+    color: #aaa9a9;
+}
+
+/**********Header Style**********/
+.header {
+    height: 64px;
+}
+.logo {
+    height: 75%;
+    float: left;
+    margin-top: .5%;
+}
+.colmar {
+    position: relative;
+    top: -10px;
+}
+.logo img {
+    margin-left: 24px;
+    margin-top: 8px;
+}
+.header span {
+    font-family: 'Fauna One', serif;
+    color: #aaa9a9;
+}
+.header .bold {
+    font-weight: 900;
+    color: #3a3a3a;
+}
+.header .ul {
+    list-style-type: none;
+}
+.header li {
+    display: inline-flex;
+    float: right;
+    margin-left: 16px;
+    margin-top: .5%;
+    vertical-align: middle;
+}
+.header li:first-child {
+    margin-right: 24px;
+}
+
+/**********Banner Style**********/
+.banner {
+    background-color: #e2e1e1;
+    overflow: hidden;  
+}
+.banner img {
+    margin: 32px 38px 32px 24px;
+    width: 60%;
+    float: left;
+}
+.banner-content {
+    margin-top: 15%;
+    width: 25%;
+    float: left;
+}
+.banner-content div {
+    text-align: center;
+    background-color: #3a3a3a;
+    color: white;
+    height: 32px;
+    padding-top: 8px;
+    font-family: 'Raleway', serif;
+}
+
+/**********Practice Style**********/
+.info {
+    display: flex;
+    margin: 32px 0;
+}
+.practice {
+    width: 60%;
+    margin: 0 24px;
+}
+.practice img {
+    width: 100%;
+}
+
+/**********Events Style**********/
+.events {
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+}
+.event img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+.event {
+    margin-bottom: 1%;
+}
+.event:hover {
+    background-color: #e2e1e1;
+}
+.text-box {
+    width: 55%;
+    float: right;
+}
+
+/**********Courses Style**********/
+.learn {
+    background-color: #e2e1e1;
+}
+.learn h1 {
+    text-align: center;
+    padding-top: 32px;
+}
+.courses {
+    margin: 0 72px;
+}
+.course img {
+    max-width: 100%;
+    height: auto;
+}
+.course {
+    overflow: hidden;
+    background-color: white;
+    margin: 32px;
+    width: 33%;
+}
+.top, .bottom {
+    display: flex;
+}
+.course-span {
+    margin: 8px 16px;
+}
+.title {
+    margin: 16px 0 16px 16px;
+}
+.class-desc {
+    margin-left: 16px;
+    width: 80%;
+}
+
+/**********Exhibit Style**********/
+.exhibits {
+    display: flex;
+}
+.thesis {
+    text-align: center;
+    margin: 32px 0;
+}
+.video {
+    width: 60%;
+    overflow: hidden;
+    margin: 0 24px 24px 24px;
+}
+video {
+    width: 100%;
+}
+.exhibit {
+    width: 100%;
+    float: right;
+}
+.exhibit:hover {
+    background-color: #e2e1e1;
+}
+.exhibit img {
+    height: auto;
+    max-width: 30%;
+    padding: 16px;
+}
+.exhibit-txt {
+    width: 60%;
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+    position: relative;
+}
+.products {
+    overflow: hidden;
+    width: 40%;
+}
+
+/**********Footer**********/
+.term, .priv {
+    float: right;
+    margin: 0 8px;
+}
+.copy {
+    margin: 26px 24px;
+
+}
+hr {
+    border: 1px solid #e2e1e1;
+    margin: 32px 0 16px 0;
+}

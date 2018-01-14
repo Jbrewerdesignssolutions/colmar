@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.hide-on-mobile {
+    display: none;
+}
+
+/**********Header Style**********/
+.header {
+    height: 64px;
+    width: 100%;
+}
+.logos img {
+    margin: 0;
+    width: 100%;
+}
+.logos {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    float: right;
+}
+.logos li {
+    display: inline-block;
+    margin: 0;
+}
+.svg {
+    padding-top: 6px;
+}
+
+/**********Banner Style**********/
+.banner {
+    margin: 0;
+}
+.banner h1, .banner h3, .button {
+    margin: 32px 16px;
+}
+.banner img {
+    width: 100%;
+    margin: 0;
+}
+.banner-content {
+    margin: 0;
+    margin: 32px 0;
+    width: 100%;
+}
+.banner-content div {
+    background-color: #afafaf;
+    font-weight: 400;
+    font-family: 'Fauna One', serif;
+}
+
+/**********Events Style**********/
+.info {
+    margin: 0;
+}
+.long {
+    display: block;
+}
+.events {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+.event {
+    margin: 0;
+    margin: 16px 16px 0 16px;
+    overflow: hidden;
+}
+.event img {
+    width: 100%;
+    margin: 0;
+}
+.text-box {
+    float: none;
+    width: 100%;
+    margin: 0 16px 0 16px;
+}
+
+/**********Start Learning Style**********/
+.learn {
+    background-color: white;
+}
+.learn h1 {
+    background-color: white;
+}
+.courses {
+    width: 100%;
+    margin: 0;
+}
+.course {
+    width: 100%;
+    margin: 0 0 8px 0;
+    background-color: #e2e1e1;
+}
+.top, .bottom {
+    display: block;
+}
+
+/**********Exhibit Style**********/
+.video {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+/**********Footer Style**********/
+hr {
+    display: none;
+}
+footer {
+    margin: 16px 0;
+}
